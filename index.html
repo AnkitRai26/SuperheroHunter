@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superhero hunter app</title>
     <link rel = "stylesheet" href = "style.css">
-</head>
 <body>
     
     <div class = "main-wrapper">
         <div class = "app">
+            <!-- app header -->
             <div class = "app-header">
                 <h2 class = "app-header-title">SuperHero<span>Hunter</span></h2>
                 <form class = "app-header-search">
@@ -22,16 +22,18 @@
                     </div>
                 </form>
             </div>
+
             <div class = "app-body">
                 <div class = "app-body-content">
-                    <!-- app body thumbnail -->
                     <div class = "app-body-content-thumbnail">
-                        <img src = "./thumbnail-batman.jpg">
+                        <img src = "thumbnail-batman.jpg">
                     </div>
+                    <!-- end of app body thumbnail -->
                     
                     <div class = "app-body-content-list">
                         <div class = "name">Batman</div>
 
+                        
                         <div class = "app-body-tabs-head">
                             <button type = "button" class = "tab-head-single" data-id = "1">
                                 <span>powerstats</span>
@@ -46,7 +48,9 @@
                                 <span>connections</span>
                             </button>
                         </div>
+                        
                         <div class = "app-body-tabs-body">
+                            <!-- powerstats tab -->
                             <ul class = "tab-body-single powerstats">
                                 <li>
                                     <div>
@@ -91,6 +95,7 @@
                                     <span>100</span>
                                 </li>
                             </ul>
+                            
                             <ul class = "tab-body-single biography">
                                 <li>
                                     <span>full name</span>
@@ -117,6 +122,7 @@
                                     <span>DC Comics</span>
                                 </li>
                             </ul>
+                            
                             <ul class = "tab-body-single appearance">
                                 <li>
                                     <span>
@@ -155,9 +161,7 @@
                                     <span>black</span>
                                 </li>
                             </ul>
-                            <!-- end of appearance -->
-
-                            <!-- connections -->
+                            
                             <ul class = "tab-body-single connections">
                                 <li>
                                     <span>group--affiliation</span>
@@ -168,7 +172,9 @@
                                     <span>Bruce Wayne (biological father), Warren McGinnis (father, deceased), Mary McGinnis (mother), Matt McGinnis (brother)</span>
                                 </li>
                             </ul>
+                            
                         </div>
+                        
                     </div>
                 </div>
             </div>
